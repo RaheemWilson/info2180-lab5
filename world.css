@@ -1,1 +1,80 @@
 /* Add your own styles */
+
+body{
+    background-color: #E2E8F0;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    width: 100vw;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+header{
+    background-color: #4A5568;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+#controls{
+    margin: 20px 0;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#country{
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0, 0.10);
+}
+
+.lookup{
+    width: 150px;
+    height: 40px;
+    background-color: #48BB78;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    margin: 20px 5px;
+}
+
+#city{
+    background-color: #548DEE;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    box-shadow: 0px 4px 10px rgba(0,0,0, 0.10);
+  }
+  
+td, th {
+    border: 1px solid #FFFFFF;
+    padding: 8px;
+}
+  
+tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+tr:nth-child(even) {
+    background-color: #E2E8F0;
+}
