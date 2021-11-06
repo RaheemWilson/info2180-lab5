@@ -10,6 +10,9 @@ $dbname = 'world';
 $country = $_GET['country'];
 $context = $_GET['context'];
 
+$country = strtolower(filter_var($country, FILTER_SANITIZE_STRING));
+$context = strtolower(filter_var($context, FILTER_SANITIZE_STRING));
+
 $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
 
 if($context == "cities"){
